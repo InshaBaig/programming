@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>no piramid</title>
+</head>
+<script>
+
+    //let rows= window.prompt("Enter the number of rows:");
+    
+    for (var i = 1; i <= 5; i++) {
+        for (var z = 5; z>= i; z--) {
+            document.write("&nbsp ");
+        }
+
+        for (var j = i; j <= i * 2 - 1; j++) {
+            document.write("&nbsp", j);
+        }
+
+        for (var z = (i - 1) * 2; z >= i; z--) {
+            document.write("&nbsp",z);
+        }
+
+        document.write("<br>");
+        
+
+
+    }
+
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>

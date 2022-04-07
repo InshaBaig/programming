@@ -1,0 +1,10 @@
+console.log('tut3')
+//variable in js
+//var, let, const
+var insha;
+//variable declare kiya h
+
+var insha=55;
+//variable insha ko value assine ki history;
+
+  

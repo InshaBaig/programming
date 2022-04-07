@@ -1,0 +1,20 @@
+p{
+    color: rgb(179, 115, 19);
+    background-color: cadetblue;
+}
+div{
+    color: chartreuse;
+    
+}
+#id1{
+    color: rgb(30, 148, 142);
+  
+}
+.class1{ border: 2px; 
+    border-color: darkred;
+    background-color: cyan;
+
+}
+@media screen {
+40
+}

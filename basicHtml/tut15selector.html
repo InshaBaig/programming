@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+</head>
+<style>
+    /* solid is imp to write */
+    /* element selector */
+    p {
+        border: 2px solid blueviolet;
+    }
+
+
+    /* id selector */
+
+    #firstpera {
+        color: green;
+    }
+
+    /* class selector */
+    .bgblue {
+        background-color: yellowgreen;
+    }
+
+    /* grouping selector */
+    footer,
+    span {
+        background-color: pink;
+    }
+</style>
+
+<body>
+    <h3>CSS Selector</h3>
+    <!-- id selector -->
+    <p id=firstpera> this is simple peragraph to demonstrate CSS selector</p>
+    <!-- class selector -->
+    <p class="bgblue">this is another simple peragraph to demonstrate CSS selector</p>
+    <p id=thirdpera class="bgblue">this is another simple peragraph to demonstrate CSS selector</p>
+
+    <div>
+        <p>this is yet another simple peragraph to demonstrate CSS selector</p>
+
+
+        <span>this is spain</span>
+    </div>
+    <footer>this is footer.</footer>
+</body>
+
+</html>
